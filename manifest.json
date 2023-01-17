@@ -1,0 +1,51 @@
+{
+	"manifest_version": 2,
+	"name": "Sales Force Data Extractor",
+	"short_name": "SF Data Extr",
+	"description": "Script helper for Cut-Sheet builder: extracts most essential data from a Salesforce ENG# page and present it into a popup window as a temporary webpage.",
+	"version": "1.12.0.0",
+	"homepage_url": "https://github.com/",
+	"author": "Stefano Fiori",
+
+	"icons": {
+		 "32": "icons/icon_multi-pickup-colors-32.png",
+		 "48": "icons/icon_multi-pickup-colors-48.png",
+		 "64": "icons/icon_multi-pickup-colors-64.png",
+		 "96": "icons/icon_multi-pickup-colors-96.png",
+		"128": "icons/icon_multi-pickup-colors-128.png"
+	},
+
+	"optional_permissions": ["activeTab", "clipboardWrite"],
+	"permissions": ["activeTab", "clipboardWrite"],
+
+	"content_scripts": [{
+      "matches": ["*://spectrum-enterprise.my.salesforce.com/*"],
+      "js": ["/app.js"]
+    }],
+
+	"background":{
+		"scripts":["/app.js"]
+	},
+
+	"commands": {
+		"run-data-extractor-script": {
+			"suggested_key": {
+				"default": "Ctrl+Alt+X",
+				"linux": "Ctrl+Alt+X",
+				"windows": "Ctrl+Alt+X"
+			},
+			"description": "Send a 'run-data-extractor-script' event to the 'commands' listener object."
+		}
+	},
+
+	"browser_action": {
+		"default_icon": {
+			 "32": "icons/icon_multi-pickup-colors-32.png",
+			 "48": "icons/icon_multi-pickup-colors-48.png",
+			 "64": "icons/icon_multi-pickup-colors-64.png",
+			 "96": "icons/icon_multi-pickup-colors-96.png",
+			"128": "icons/icon_multi-pickup-colors-128.png"
+		},
+	"default_title": "Execute SalesForce Data Extractor!"
+	}
+}
