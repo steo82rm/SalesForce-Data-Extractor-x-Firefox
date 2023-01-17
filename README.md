@@ -45,14 +45,52 @@ If any help is needed or for any question please contact me here on github.
 
 <br />
 
+---
 ### ⚠ Important notes: ⚠
 1. In order to allow this extension/script to efficiently run, the user will _need to allow popups windows from the domain: "**[salesforce.com](https://salesforce.com)**"_
     - _a quick official guide on how to achieve this configuration for the Mozilla Firefox browser can be reached here:_
       _[https://support.mozilla.org/en-US/kb/pop-blocker-settings-exceptions-troubleshooting](https://support.mozilla.org/en-US/kb/pop-blocker-settings-exceptions-troubleshooting)_
 2. The script is designed to be effective and to run _only on the domain: "**[salesforce.com](https://salesforce.com)**"_
+---
+### # Screenshotd and previews of the Firefox Extension/Add-On:
 
+<picture style="float: left;">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/steo82rm/SalesForce-Data-Extractor-x-Firefox-/blob/main/tutorial/Pic_01_ExtensionIcon.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/steo82rm/SalesForce-Data-Extractor-x-Firefox-/blob/main/tutorial/Pic_01_ExtensionIcon.png">
+  <img alt="Shows a screenshot of the extension icon on the browser Firefox with some description." src="https://github.com/steo82rm/SalesForce-Data-Extractor-x-Firefox-/blob/main/tutorial/Pic_01_ExtensionIcon.png">
+</picture><br />
+Once installed a small icon will be (should be, based on your settings) visible on the top-right corner of the browser.<br />
+Once the desired ENG# page is loaded and visible, just click the extension icon one time to launch the script and extract the information.<br />
+<br />
 
- 
+<picture style="float: left;">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/steo82rm/SalesForce-Data-Extractor-x-Firefox-/blob/main/tutorial/Pic_02_PopupWindow.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/steo82rm/SalesForce-Data-Extractor-x-Firefox-/blob/main/tutorial/Pic_02_PopupWindow.png">
+  <img alt="Shows a screenshot of the extension icon on the browser Firefox with some description." src="https://github.com/steo82rm/SalesForce-Data-Extractor-x-Firefox-/blob/main/tutorial/Pic_02_PopupWindow.png">
+</picture><br />
+This is an example of the information extracted and how will be presented to the user.<br />
+<br />
+
+<picture style="float: left;">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/steo82rm/SalesForce-Data-Extractor-x-Firefox-/blob/main/tutorial/Pic_03_PopupWindow_Features1.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/steo82rm/SalesForce-Data-Extractor-x-Firefox-/blob/main/tutorial/Pic_03_PopupWindow_Features1.png">
+  <img alt="Shows a screenshot of the extension icon on the browser Firefox with some description." src="https://github.com/steo82rm/SalesForce-Data-Extractor-x-Firefox-/blob/main/tutorial/Pic_03_PopupWindow_Features1.png">
+</picture><br />
+Description of some features available inside the popup webpage.<br />
+<br />
+
+<picture style="float: left;">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/steo82rm/SalesForce-Data-Extractor-x-Firefox-/blob/main/tutorial/Pic_04_PopupWindow_Features2.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/steo82rm/SalesForce-Data-Extractor-x-Firefox-/blob/main/tutorial/Pic_04_PopupWindow_Features2.png">
+  <img alt="Shows a screenshot of the extension icon on the browser Firefox with some description." src="https://github.com/steo82rm/SalesForce-Data-Extractor-x-Firefox-/blob/main/tutorial/Pic_04_PopupWindow_Features2.png">
+</picture><br />
+Description of some other features available.<br />
+(this one is still under development...)<br />
+<br />
+<br />
+
+<br />
+
 ---
 ### About Me:
 <picture style="float: left;">
