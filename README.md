@@ -19,7 +19,7 @@ _Example: one-click on a field-value will copy its textual content to the user-c
 To get started and use this tool, the best feasible way is to visit the addons pages of Firefox and Add/Install this addon directly from there.<br />
 Here is the link to be redirected to the Add-On:<br />
 [https://addons.mozilla.org/en-US/firefox/addon/salesforce-data-extractor/](https://addons.mozilla.org/en-US/firefox/addon/salesforce-data-extractor/)<br />
-Otherwise, you can _clone this project_ and _build it locally_ so you can install it yourself on your browser following the suggested manual installation instructions [here below](https://github.com/steo82rm/SalesForce-Data-Extractor-x-Firefox-/edit/main/README.md#manual-installation-only-localno-auto-updateonly-for-linux-os).<br />
+Otherwise, you can _clone this project_ and _build it locally_ so you can install it yourself on your browser following the suggested manual installation instructions [here below](https://github.com/steo82rm/SalesForce-Data-Extractor-x-Firefox-#-manual-installation).<br />
 
 ### # Manual installation:
 Please, before to proceed, consider the following:
@@ -28,10 +28,11 @@ Please, before to proceed, consider the following:
 - the following information provided are valid and good ***ONLY for any LINUX OS*** ...
 - the script _make_ can be used to facilitate the build of the package.
 
-To proceed with the manual installation follow these instructions/commands:<br />
-`mkdir SalesForce_DataExtractor_xFirefox`<br />
-`cd SalesForce_DataExtractor_xFirefox`<br />
+To proceed with a manual installation follow these instructions and run the following commands:<br />
+`mkdir SalesForce_DataExtractor_xFirefox_add-on`<br />
+`cd SalesForce_DataExtractor_xFirefox_add-on`<br />
 `git clone https://github.com/steo82rm/SalesForce-Data-Extractor-x-Firefox`<br />
+`cd SalesForce-Data-Extractor-x-Firefox-`<br />
 `chmod 754 ./make`<br />
 `./make`<br />
 
@@ -99,7 +100,7 @@ Description of some other features available.<br />
  <img alt="My Avatar" src="https://avatars.githubusercontent.com/u/114833388?s=400&u=ae7813769b528e419e049624801e7eb8017ba7a8&v=4">
 </picture>
 
-> [DOH!](https://github.com/steo82rm/SalesForce-Data-Extractor-x-Firefox-/edit/main/README.md#salesforce-data-extractor-for-firefox)
+> [DOH!](https://github.com/steo82rm/SalesForce-Data-Extractor-x-Firefox-#salesforce-data-extractor-for-firefox)
 
 — Homer J. Simpson
 
