@@ -1,0 +1,16 @@
+{
+	"addons": {
+		"salesforce-data-extractor@salesforce.com": {
+			"updates": [
+				{	"version": "1.12.0.0",
+					"update_link":  "https://github.com/steo82rm/SalesForce-Data-Extractor-x-Firefox/raw/main/builds/SalesForce_DataExtractor_xFirefox.xpi",
+					"update_hash" : "sha256:0FEE5D33C13546A599A54085DA6AC28FBF3D1678"
+				}, {
+					"version": "1.12.0.1",
+					"update_link":  "https://github.com/steo82rm/SalesForce-Data-Extractor-x-Firefox/raw/main/builds/SalesForce_DataExtractor_xFirefox.xpi",
+					"update_hash" : "sha256:0FEE5D33C13546A599A54085DA6AC28FBF3D1678"
+				}
+			]
+		}
+	}
+}
