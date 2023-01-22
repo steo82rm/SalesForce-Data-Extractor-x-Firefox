@@ -16,9 +16,13 @@ This popup page will contain some easy useful additional JavaScript that can hel
 _Example: one-click on a field-value will copy its textual content to the user-clipboard, so to make it easier to copy specific information elsewhere as needed._
 
 ### # Get-Started:
-To get started and use this tool, the best feasible way is to visit the addons pages of Firefox and Add/Install this addon directly from there.<br />
-Here is the link to be redirected to the Add-On:<br />
-[https://addons.mozilla.org/en-US/firefox/addon/salesforce-data-extractor/](https://addons.mozilla.org/en-US/firefox/addon/salesforce-data-extractor/)<br />
+The best feasible way to integrate this feature into Mozilla Firefox browser is to... ~~visit the add-ons pages and **add**(/install) it directly from there:<br />
+[https://addons.mozilla.org/en-US/firefox/addon/salesforce-data-extractor/](https://addons.mozilla.org/en-US/firefox/addon/salesforce-data-extractor/)~~<br />
+<sub>🚩 Despite it was originally published for a while, and despite there are some similar projects online (on the public Mozilla Add-Ons repositories), the Mozilla Reviewer Team decided that this project should be private because not fully reachable by the public; hence the only way to retrive and install this add-on feature, at the moment, is from this current github page of mine. 🚩</sub><br />
+<br />
+Follow this link and let Firefox install it on request:<br />
+-- TO-DO: ... in progress... as soon Mozilla Reviewer Team will authorize and sign the new build. --<br />
+<br />
 Otherwise, you can _clone this project_ and _build it locally_ so you can install it yourself on your browser following the suggested manual installation instructions [here below](https://github.com/steo82rm/SalesForce-Data-Extractor-x-Firefox#-manual-installation).<br />
 
 ### # Manual installation:
@@ -49,7 +53,7 @@ If any help is needed or for any question please contact me here on github.
 ---
 ### ⚠ Important notes: ⚠
 1. In order to allow this extension/script to efficiently run, the user will _need to allow popups windows from the domain: "**[salesforce.com](https://salesforce.com)**"_
-    - _a quick official guide on how to achieve this configuration for the Mozilla Firefox browser can be reached here:_
+    - _a quick official guide on how to achieve this configuration for the Mozilla Firefox browser can be reached here:_<br />
       _[https://support.mozilla.org/en-US/kb/pop-blocker-settings-exceptions-troubleshooting](https://support.mozilla.org/en-US/kb/pop-blocker-settings-exceptions-troubleshooting)_
 2. The script is designed to be effective and to run _only on the domain: "**[salesforce.com](https://salesforce.com)**"_
 ---
@@ -104,9 +108,9 @@ Description of some other features available.<br />
 
 — Homer J. Simpson
 
-
+<sub>
 I am an enthusiast amatorial programmer with, at the moment, little time for it.<br />
-I hope to share some of my knowledge to this community and to provide useful contributions, nevertheless to learn new things.
+I hope to share some of my knowledge to this community and to provide useful contributions, nevertheless to learn new things.<br />
 <!-- TO DO: add more details about me later -->
 Thank you for using and contributing to this little project of mine; any contribution may be precious and sincerely welcome!
-
+</sub>
