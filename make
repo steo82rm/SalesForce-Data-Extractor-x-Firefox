@@ -70,30 +70,41 @@ if [ "$_userChoice" == "y" ]
 then {
 	echo -e "${NC}${GREEN}";
 	if [ -d "$_buildDir" ] ; then { rm -vr "$_buildDir"; } ; fi
-		if [ $? != 0 ] ; then { echo -e " ${NC}${RED}# Error during project clean-up... Exiting...${NC}"; exit 1; } ; fi
+		if [ $? != 0 ] ; then { echo -e " ${NC}${RED}# Error during project clean-up of the build folder! Exiting...${NC}"; exit 1; } ; fi
 	if ls ./*.zip 1> /dev/null 2>&1 ; then { rm -v *.zip; } ; fi
-		if [ $? != 0 ] ; then { echo -e " ${NC}${RED}# Error during project clean-up... Exiting...${NC}"; exit 1; } ; fi
+		if [ $? != 0 ] ; then { echo -e " ${NC}${RED}# Error during project clean-up of the zip files in the project path! Exiting...${NC}"; exit 1; } ; fi
 	echo -e " ${NC}${CYAN}# Project clean-up completed.${NC}";
 } fi
 
 echo -e " ${CYAN}# Creating new package extension version:${NC}${GREEN}"
-	zip -rv -FS ./"${_FN}" ./* --exclude make \*.git\* \*.zip \*.xpi ./builds/ ./.git/ ./git/
-	if [ $? != 0 ] ; then { echo -e " ${NC}${RED}# Error during project packaging... Exiting...${NC}"; exit 1; } ; fi
+	zip -rv -FS ./"${_FN}" ./* --exclude make update.json \*.git\* \*.zip \*.xpi \*builds\* \*git\*
+	if [ $? != 0 ] ; then { echo -e " ${NC}${RED}# Error during the project packaging process (zip)! Exiting...${NC}"; exit 1; } ; fi
 echo -e " ${NC}${CYAN}--- Done.${NC}"
 echo -e " ${CYAN}# Moving built to '${_buildDir}' ${NC}${GREEN}"
 	if [ ! -d "$_buildDir" ] ; then { mkdir "$_buildDir"; } ; fi
 	mv -v "./${_FN}" "$_buildDir"
-	if [ $? != 0 ] ; then { echo -e " ${NC}${RED}# Error while moving the project package... Exiting...${NC}"; exit 1; } ; fi
+	if [ $? != 0 ] ; then { echo -e " ${NC}${RED}# Error while moving the project zip-package to the build folder! Exiting...${NC}"; exit 1; } ; fi
 echo -e " ${NC}${CYAN}--- Done.${NC}"
 echo -e " ${CYAN}# Package extension conversion:${NC}${GREEN}"
 	cp -v "$_buildDir/${_FN}" "$_buildDir/${_FN%%.*}.xpi"
-	if [ $? != 0 ] ; then { echo -e " ${NC}${RED}# Error while converting the project package to extension... Exiting...${NC}"; exit 1; } ; fi
+	if [ $? != 0 ]
+	then {
+		echo -e " ${NC}${RED}# Error while converting the project zip-package to Firefox Add-On dated extension! Exiting...${NC}";
+		exit 1;
+	} else {
+		echo -e " ${CYAN}# Calculating and generating SHA256 hash for the new package extension:${NC}${GREEN}"
+		_hash=$(echo -e "sha256:$(sha256sum ${_buildDir}/${_FN%%.*}.xpi)"  | cut -d" " -f1)
+		echo -e "   '${_buildDir}/${_FN%%.*}.xpi' ${CYAN}SHA256 hash is:${NC}\n   '${_hash}'"
+		echo $_hash>"${_buildDir}/${_FN%%.*}.xpi.hash.SHA256"
+		unset _hash
+	} fi
 echo -e " ${NC}${CYAN}--- Done.${NC}"
 
 echo -e " ${CYAN}# Completed!\n"
 echo -e " The new package extention version has been created into: '${_buildDir}'] as shown below:${NC}${GREEN}"
 	ls -hal --group-directories-first $_buildDir
-echo -e "${NC}"
+echo -e " ${NC}${CYAN}--- Build process completed.${NC}\n"
+
 
 
 # Script clean-up:

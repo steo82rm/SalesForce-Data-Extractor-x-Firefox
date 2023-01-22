@@ -3,12 +3,12 @@
 		"salesforce-data-extractor@salesforce.com": {
 			"updates": [
 				{	"version": "1.12.0.0",
-					"update_link":  "https://github.com/steo82rm/SalesForce-Data-Extractor-x-Firefox/raw/main/builds/SalesForce_DataExtractor_xFirefox.xpi",
-					"update_hash" : "sha256:0FEE5D33C13546A599A54085DA6AC28FBF3D1678"
+					"update_link":  "https://raw.githubusercontent.com/steo82rm/SalesForce-Data-Extractor-x-Firefox/main/builds/SalesForce_DataExtractor_xFirefox_2023-01-13_23-00-00.xpi",
+					"update_hash" : "sha256:a59ab7e671cf9920c803625bb041feec1f58ed584cb16c3bd3c2ffcaaab9f022"
 				}, {
 					"version": "1.12.0.1",
-					"update_link":  "https://github.com/steo82rm/SalesForce-Data-Extractor-x-Firefox/raw/main/builds/SalesForce_DataExtractor_xFirefox.xpi",
-					"update_hash" : "sha256:0FEE5D33C13546A599A54085DA6AC28FBF3D1678"
+					"update_link":  "https://raw.githubusercontent.com/steo82rm/SalesForce-Data-Extractor-x-Firefox/main/builds/SalesForce_DataExtractor_xFirefox_2023-01-21_21-29-19.xpi",
+					"update_hash" : "sha256:55691e2975f04a770dd91573953755e2094f22dda31756454552d8c099638faa"
 				}
 			]
 		}
