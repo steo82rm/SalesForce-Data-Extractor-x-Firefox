@@ -1,11 +1,11 @@
 SalesForce Data Extractor (for Firefox):
 ===
 
-### # What it is:
+### # What is this?:
 It is a Firefox Add-On/Extension.<br />
 It has been designed with in mind any _Enterprise Spectrum Technician (6th level)_; it provides an easy tool (script) that *aim to help* to quickly collect the most useful information in order to build the _Cut-Sheet_ document needed for the job.
 
-### # Why it's useful:
+### # Why it is useful:
 It is useful because it can quickly help to extracts the most essential data from a __Salesforce ENG# page__ and then it will present these information into a popup window as a temporary webpage _(that will automatically close after about 10 minutes)_.
 
 ### # How it works:
@@ -20,8 +20,8 @@ The best feasible way to integrate this feature into Mozilla Firefox browser is 
 [https://addons.mozilla.org/en-US/firefox/addon/salesforce-data-extractor/](https://addons.mozilla.org/en-US/firefox/addon/salesforce-data-extractor/)~~<br />
 <sub>🚩 Despite it was originally published for a while, and despite there are some similar projects online (on the public Mozilla Add-Ons repositories), the Mozilla Reviewer Team decided that this project should be private because not fully reachable by the public; hence the only way to retrive and install this add-on feature, at the moment, is from this current github page of mine. 🚩</sub><br />
 <br />
-Follow this link and let Firefox install it on request:<br />
--- TO-DO: ... in progress... as soon Mozilla Reviewer Team will authorize and sign the new build. --<br />
+... follow this link (with the Mozilla Firefox browser) to install the add-on:<br />
+_[Install SalesForce Data Extractor Firefox add-on/extension](https://raw.githubusercontent.com/steo82rm/SalesForce-Data-Extractor-x-Firefox/main/builds/SalesForce_DataExtractor_xFirefox_2023-01-21_21-29-19.xpi)_<br />
 <br />
 Otherwise, you can _clone this project_ and _build it locally_ so you can install it yourself on your browser following the suggested manual installation instructions [here below](https://github.com/steo82rm/SalesForce-Data-Extractor-x-Firefox#-manual-installation).<br />
 
