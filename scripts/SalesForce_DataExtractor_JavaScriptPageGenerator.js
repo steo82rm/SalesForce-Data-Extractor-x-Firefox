@@ -14,7 +14,7 @@
 
 
 /** Main variables declarations: --- START --- ***/
-var version = "v1.12, 2022/12/07";
+var version = "v1.12.0.1, 2023/01/21";
 var body = "<!DOCTYPE html>\n";
 var color = "Gold";
 var bgcolor = "#000052"; // "Navy";
@@ -262,7 +262,7 @@ body += "\t\t<meta name=\"keywords\" content=\"SalesForce, FTVI, Enterprise, Cha
 body += "\t\t<meta name=\"author\" content=\"Stefano Fiori\" \>\n";
 body += "\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" \>\n";
 body += "\t\t<title>SalesForce Extractor for Enterprise Spectrum Technicians ("+version+" - Stefano Fiori)</title>\n";
-body += "\t\t<link rel=\"icon\" type=\"image/x-icon\" href=\"/images/favicon.ico\" \>\n";
+body += "\t\t<link rel=\"icon\" type=\"image/x-icon\" href=\"/images/icons/icon_multi-pickup-colors-64.ico\" \>\n";
 
 // CSS and <style>:
 body += "\t\t<style>\n";
@@ -311,10 +311,12 @@ body += "\t<div style=\"margin: auto;\">\n";
 // Icons & buttons:
 body += "\t\t<div style=\"display: inline-block; position: absolute; margin-left: 90%;\">\n";
 body += "\t\t\t<div style=\"display: inline-block; height: 32px; width: 25px; overflow: hidden;\" onclick=\"JavaScript: if (document.getElementsByTagName('tbody')[0].style.fontWeight == 'bold') document.getElementsByTagName('tbody')[0].style.fontWeight = 'normal';  else document.getElementsByTagName('tbody')[0].style.fontWeight = 'bold';\">\n";
-body += "\t\t\t\t<img style=\"background-color: grey; height: 52px; margin: -8px 0px 0px -14px;\" src=\"https://www.iconfinder.com/icons/352381/download/ico/4096\"> \n\t\t\t</div>\n";
+// body += "\t\t\t\t<img style=\"background-color: grey; height: 52px; margin: -8px 0px 0px -14px;\" src=\"https://www.iconfinder.com/icons/352381/download/ico/4096\"> \n\t\t\t</div>\n";
+body += "\t\t\t\t<img style=\"background-color: grey; height: 52px; margin: -8px 0px 0px -14px;\" src=\""+browser.runtime.getURL('/')+"images/icons/352381_bold_format_icon.ico\"> \n\t\t\t</div>\n";
    // 2nd Icon for Copy function
 body += "\t\t\t<div style=\"display: inline-block; height: 32px; width: 30px; overflow: hidden;\" onclick=\"JavaScript: formattedCopy = !formattedCopy; formattedCopy ? alert('Unified Copy Format Dectivated!') : alert('Unified Copy Format Activated!'); changeCopyFormat(document.getElementById('userDelimitator').value);\"> \n";
-body += "\t\t\t\t<img style=\"background-color: grey; height: 38px; width: 40px; margin: -3px 0px 0px -5px;\" src=\"https://www.iconfinder.com/icons/7787508/download/ico/4096\"> \n\t\t\t</div>";
+// body += "\t\t\t\t<img style=\"background-color: grey; height: 38px; width: 40px; margin: -3px 0px 0px -5px;\" src=\"https://www.iconfinder.com/icons/7787508/download/ico/4096\"> \n\t\t\t</div>";
+body += "\t\t\t\t<img style=\"background-color: grey; height: 38px; width: 40px; margin: -3px 0px 0px -5px;\" src=\""+browser.runtime.getURL('/')+"images/icons/7787508_duplicate_copy_documents_folder_file_icon.ico\"> \n\t\t\t</div>";
 body += "\n\t\t\t<textarea style=\"display: inline-block; background-color: #E0E0E0; margin-bottom: 11px; resize: none; text-align: center; vertical-align: center; height: 12px; width: 12px\" id=\"userDelimitator\" name=\"userDelimitator\" rows=\"1\" cols=\"1\" minlength=\"1\" maxlength=\"1\" autofocus required placeholder=\",\">,</textarea>\n";
 body += "\n\t\t</div> \n";
 
