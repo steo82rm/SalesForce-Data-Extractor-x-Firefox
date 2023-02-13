@@ -22,6 +22,8 @@ The best feasible way to integrate this feature into Mozilla Firefox browser is 
 <br />
 ... follow this link (with the Mozilla Firefox browser) to install the add-on:<br />
 _[Install SalesForce Data Extractor Firefox add-on/extension](https://gooier-salutes.000webhostapp.com/git_projects/SalesForce_DataExtractor_xFirefox/install-page.html)_ <br />
+_[https://bit.ly/3xit63N](https://bit.ly/3xit63N)_
+<br />
 <br />
 Otherwise, you can _clone this project_ and _build it locally_ so you can install it yourself on your browser following the suggested manual installation instructions [here below](https://github.com/steo82rm/SalesForce-Data-Extractor-x-Firefox#-manual-installation).<br />
 
