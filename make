@@ -77,7 +77,7 @@ then {
 } fi
 
 echo -e " ${CYAN}# Creating new package extension version:${NC}${GREEN}"
-	zip -rv -FS ./"${_FN}" ./* --exclude make update.json \*.git\* \*.zip \*.xpi \*builds\* \*git\*
+	zip -rv -FS ./"${_FN}" ./* --exclude make \*.git\* \*.zip \*.xpi \*builds\* \*git\* \*website\* \*tutorial\*
 	if [ $? != 0 ] ; then { echo -e " ${NC}${RED}# Error during the project packaging process (zip)! Exiting...${NC}"; exit 1; } ; fi
 echo -e " ${NC}${CYAN}--- Done.${NC}"
 echo -e " ${CYAN}# Moving built to '${_buildDir}' ${NC}${GREEN}"
