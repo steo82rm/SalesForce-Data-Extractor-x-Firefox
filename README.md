@@ -28,6 +28,7 @@ Otherwise, you can _clone this project_ and _build it locally_ so you can instal
 ### # Manual installation:
 Please, before to proceed, consider the following:
 - this package version is a local installation;
+- this method won't have any **Mozilla** validation/certificates, hence you'll need to make adjustments to the Firefox browser on "about:debugging" and manually add it;
 - there may be no auto-update feature included (working on it);
 - the following steps provided are valid ***ONLY*** for any LINUX OS ...
 - the script _make_ can be used to facilitate the build of the package.
