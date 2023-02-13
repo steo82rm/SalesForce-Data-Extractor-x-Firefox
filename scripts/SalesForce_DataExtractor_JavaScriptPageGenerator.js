@@ -4,7 +4,7 @@
  * Cut-Sheet data builder helper.
  * 
  * @author: Stefano Fiori
- * @version: 1.12, 2022/12/07
+ * @version: 1.12.1.2, 2023/02/12
  * @language: JavaScript
  * 
  *
@@ -14,7 +14,7 @@
 
 
 /** Main variables declarations: --- START --- ***/
-var version = "v1.12.0.1, 2023/01/21";
+var version = "v1.12.1.2, 2023/02/12";
 var body = "<!DOCTYPE html>\n";
 var color = "Gold";
 var bgcolor = "#000052"; // "Navy";
