@@ -1,5 +1,6 @@
-SalesForce Data Extractor (for Firefox):   [current version: 1.12.1.2, 2023-02-12]
+SalesForce Data Extractor (for Firefox):
 ===
+_<p align="right">[ current version: 1.12.1.2, 2023-02-12 ]</p>_
 
 ### # What is this?:
 It is a Firefox Add-On/Extension.<br />
