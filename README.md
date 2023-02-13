@@ -1,4 +1,4 @@
-SalesForce Data Extractor (for Firefox):
+SalesForce Data Extractor (for Firefox):   [current version: 1.12.1.2, 2023-02-12]
 ===
 
 ### # What is this?:
